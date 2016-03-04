@@ -47,7 +47,7 @@ li {
     background-color: #2C4985;
     padding: 1.9em 3em; }
   .customerInfo .priceOption3 {
-    background-color: #111111;
+    background-color: #000000;
     padding: 1.9em 3em; }
   .customerInfo .personalFeature {
     color: #526066;
@@ -94,6 +94,19 @@ li {
     font-family: 'Varela Round'; }
   .features p {
     width: 100%; }
+
+.promo {
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box; }
+  .promo p {
+    color: #888888;
+    padding: 1.75em 2.6875em;
+    width: 22.5625em;
+    margin: 0 auto; }
+    .promo p a {
+      color: #DCDCDC; }
 
 /*@media (min-width: 29.9375em) {
 

@@ -64,7 +64,7 @@ li {
 	}
 
 	.priceOption3 {
-		background-color: #111111;
+		background-color: #000000;
 		padding: 1.9em 3em;
 	}
 
@@ -130,6 +130,27 @@ li {
 
 	p {
 		width: 100%;
+	}
+}
+
+.promo  {
+	background-color: black;
+	text-align: center;
+	margin: 0 auto;
+	box-sizing: border-box;
+
+	p {
+		color: #888888;
+		padding: 1.75em 2.6875em;
+		width: 22.5625em;
+		margin: 0 auto;
+
+
+
+		a {
+			color: #DCDCDC;
+		}
+
 	}
 }
 
