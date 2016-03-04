@@ -1,20 +1,24 @@
 body {
   font-family: 'Open Sans', sans-serif; }
 
-li {
-  list-style-type: none;
-  box-sizing: border-box;
-  margin: 0 auto; }
-  li a {
-    text-decoration: none;
-    color: #777777;
-    float: left;
-    margin-top: 1em;
-    margin-bottom: .5em;
-    text-align: center;
-    padding-left: 2.9em; }
-    li a .navLink {
-      text-decoration: none; }
+nav {
+  margin: 0 auto;
+  text-align: center;
+  width: 18.5em; }
+  nav li {
+    list-style-type: none;
+    box-sizing: border-box;
+    margin: 0 auto; }
+    nav li a {
+      text-decoration: none;
+      color: #777777;
+      float: left;
+      margin-top: 1em;
+      margin-bottom: .5em;
+      text-align: center;
+      margin-right: .7em; }
+      nav li a .navLink {
+        text-decoration: none; }
 
 .navLinkActiv {
   color: black;
@@ -27,7 +31,117 @@ li {
   display: inline-block;
   margin: 0 auto 3.1875em;
   width: 100%;
+  box-sizing: border-box;
+  text-shadow: 3px 3px 0px #000; }
+  .hero h1 {
+    color: white;
+    font-weight: 400;
+    width: 10em;
+    text-align: center;
+    margin: 0 auto; }
+
+.customerInfo {
+  margin: 0 .625em;
+  text-align: center;
+  color: white;
   box-sizing: border-box; }
+  .customerInfo .priceOption1 {
+    background-color: #519251;
+    padding: 1.9em 3em; }
+  .customerInfo .priceOption2 {
+    background-color: #2C4985;
+    padding: 1.9em 3em; }
+  .customerInfo .priceOption3 {
+    background-color: #000000;
+    padding: 1.9em 3em; }
+  .customerInfo .personalFeature {
+    color: #526066;
+    border-bottom: solid .1em #DDDDDD;
+    border-left: solid .1em #DDDDDD;
+    border-right: solid .1em #DDDDDD;
+    padding: 1em;
+    background-color: #F7F7F7; }
+  .customerInfo .title {
+    font-size: 1.1em;
+    letter-spacing: .2em;
+    padding-bottom: .1em;
+    color: #FFFFFF; }
+  .customerInfo .price {
+    font-size: 6em;
+    color: #FFFFFF; }
+  .customerInfo .subtitle {
+    font-size: 1.3em;
+    padding: .5em;
+    color: #9D9D9D; }
+  .customerInfo .btnContainer {
+    border-bottom: solid .1em #DDDDDD;
+    border-left: solid .1em #DDDDDD;
+    border-right: solid .1em #DDDDDD;
+    padding: 1.6em;
+    margin-bottom: 2.3em; }
+    .customerInfo .btnContainer button {
+      background-color: white;
+      color: black;
+      padding-bottom: 0.4875em;
+      padding-top: 0.4875em;
+      border: .12em solid #dddddd;
+      border-radius: 2em;
+      width: 5.75em;
+      margin: 0 auto; }
+
+.features {
+  margin: 7.0625em 2.3125em 2em 2.3125em;
+  text-align: left;
+  box-sizing: border-box; }
+  .features .featureInfo {
+    margin-bottom: 3.625em; }
+  .features h3 {
+    font-family: 'Varela Round'; }
+  .features p {
+    width: 100%; }
+
+.promo {
+  background-color: black;
+  text-align: center;
+  margin: 0 auto;
+  box-sizing: border-box; }
+  .promo p {
+    color: #888888;
+    margin: 0 auto;
+    padding: 1em 0; }
+    .promo p a {
+      color: #DCDCDC; }
+
+@media (min-width: 29.9375em) {
+  nav {
+    margin: 0 auto;
+    text-align: center;
+    width: 25em; }
+    nav li {
+      list-style-type: none;
+      box-sizing: border-box;
+      margin: 0 auto;
+      padding-left: 2em; }
+      nav li a {
+        text-decoration: none;
+        color: #777777;
+        margin: .5em .7em;
+        text-align: center; }
+        nav li a .navLink {
+          text-decoration: none; } }
+.navLinkActiv {
+  color: black;
+  box-sizing: border-box; }
+
+.hero {
+  background-image: url("../images/background1.jpg");
+  padding: 9.625em 0;
+  margin-bottom: 2em;
+  display: inline-block;
+  margin: 0 auto 3.125em;
+  width: 100%;
+  box-sizing: border-box;
+  text-shadow: 3px 3px 0px #000; }
   .hero h1 {
     color: white;
     font-weight: 400;
@@ -108,9 +222,6 @@ li {
     .promo p a {
       color: #DCDCDC; }
 
-/*@media (min-width: 29.9375em) {
-
-}*/
 /*@media (min-width: 61.125em) {
 
 }*/
