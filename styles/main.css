@@ -186,8 +186,8 @@ nav {
       width: 100%;
       margin: 0;
       vertical-align: top; } }
-/*@media (min-width: 61.1875em) {
-
-}*/
+@media (min-width: 61.1875em) {
+  .container {
+    margin: 0 5.3125em; } }
 
 /*# sourceMappingURL=main.css.map */
